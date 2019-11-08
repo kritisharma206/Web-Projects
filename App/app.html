@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>charu171198 </title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.main{
+  background-color:#00ffff47;
+}
+.first{
+background: #80808069;
+font-family: sans-serif;
+width:50%;
+margin-left: 30%;
+height: 150px;
+}
+
+#second{
+background-color: pink;
+font-family: cursive;
+width:50%;
+margin-left: 30%;
+height: 600px;
+margin-top: -2%;
+}
+#second li{
+   padding :6px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#second li:hover{
+    border-color:#9361bf;
+}
+.name{
+	  font-size: 20px;
+      font-family: Comic Sans MS;
+
+}
+
+.delete{
+    background-color: purple;
+    color:white;
+    float: right;
+      padding:6px;
+    margin-right: 55px;
+    border-radius:4px;
+}
+.delete:hover{
+    background:#333;
+}
+
+.third{
+background-color: #0000ff63;
+font-family: cursive;
+width:50%;
+margin-left: 30%;
+margin-top: 0%;
+height: 200px;
+}
+
+
+</style>
+</head>
+
+<body>
+<div class="main">
+<div class="first">
+<header>
+<h1><center>Moviemania</center></h1>
+<h5><center>Movies for everyone</center></h5>
+<form><center>
+<input type="text" placeholder="Search Movies" style="width: 40%;">
+</center>
+</form>
+</header>
+</div>
+
+<div id="second">
+<h4 style="margin-left: 3%; margin-top: 2%;">Movies to watch</h4>
+<ul style="list-style-type: none;" id="list">
+  <li>
+  	<span class="name">Fight Club </span><br>
+  	<span class="delete">Delete</span><br>
+  </li>
+
+  <li>
+  	<span class="name">Shawshank Redemption</span><br>
+  	<span  class="delete">Delete</span><br>
+  </li>
+
+  <li>
+  	<span class="name">Dillwale</span><br>
+    <span class="delete">Delete</span><br>
+  </li>
+
+   <li>
+   	<span class="name">Dark Knight</span><br>
+   	<span class="delete">Delete</span><br>
+   </li>
+
+  <li>
+    <span class="name">Dark Knight1</span><br>
+  	<span class="delete">Delete</span><br>
+   </li>
+   </ul> 
+</div>
+
+<div class="third">
+<form id ="add-movie">
+  <center>
+<input type="Checkbox" id="hide" style="margin-top: 7%;">
+<label for="hide">Hide the List</label><br>
+<input type="text"style="width:220px;" placeholder="Add a movie"><br>
+<!--<input type="button" value="Add" onclick="addItem()">-->
+<button>Add</button>
+</center>
+</form>
+</div>
+   <script src="1.js"></script>
+
+</div>
+</body>
+</html>
